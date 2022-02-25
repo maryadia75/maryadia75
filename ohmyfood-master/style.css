@@ -64,13 +64,16 @@ header {
 .city input {
   overflow: auto;
   border: none;
-  font-size: auto;
   
 }
 .city input::placeholder { 
   font-weight:bold; 
   color: black; 
   border: none;  
+}
+input[type="text"] {
+  background-color: inherit;
+  font-size: 1.2rem;
 }
 
 .explorer {
