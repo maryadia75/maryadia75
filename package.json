@@ -1,0 +1,23 @@
+{
+  "name": "ohmyfood-main",
+  "version": "1.0.0",
+  "description": "projet 3 ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch style.scss style.css",
+    "build": "postcss style.css -u autoprefixer cssnano -o ./build/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryadia75/ohmyfood.git"
+  },
+  "author": "dm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryadia75/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/maryadia75/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
