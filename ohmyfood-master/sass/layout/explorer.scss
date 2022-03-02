@@ -1,5 +1,6 @@
 @use "../utils/mixins";
 @use "../utils/colors";
+// reglage boutton explorer
 .explorer {
   text-align: center;
   margin: 2rem;
@@ -15,7 +16,7 @@
     font-size: 1rem;
   }
 }
-
+// réglage du loader avec mise en place d'animation
 .loader {
   $animation-duration: 1s;
   $animation-count: 3;

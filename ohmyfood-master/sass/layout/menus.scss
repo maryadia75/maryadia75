@@ -1,19 +1,21 @@
 @use "../utils/variables";
 @use "../utils/colors";
 @use "../utils/mixins";
-
+// reglage menu
 #homepage {
   .menus {
     background-color: #f6f6f6;
     margin-bottom: 2rem;
-
+// réglage disposition des cartes en mode  tablette et ordinateur
     .menus__cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
+      // réglage en mode mobile
       @media (max-width: variables.$breakpoint) {
         grid-template-columns: repeat(1, 1fr);
       }
+      // réglage carte  restaurants nouveaux
       .new {
         position: relative;
       }
@@ -30,7 +32,7 @@
         top: 1rem;
       }
     }
-
+// réglages des images des cartes restaurants + coeur
     .card {
       &__image {
         height: 15rem;

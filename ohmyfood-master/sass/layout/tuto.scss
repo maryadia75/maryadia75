@@ -2,6 +2,7 @@
 @use "../utils/variables";
 @use "../utils/colors";
 
+// réglage des parties boutton tuto,avec counter et version mobile
 .tuto {
   counter-reset: steps;
   margin-bottom: 2rem;
@@ -44,6 +45,7 @@
         color: colors.$purple;
       }
     }
+    // réglages des icones
     & i.fas {
       margin-right: 1rem;
       color: colors.$lightgrey;

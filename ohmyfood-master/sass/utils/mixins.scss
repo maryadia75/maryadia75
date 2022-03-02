@@ -7,13 +7,15 @@
     rgba(255, 121, 218, $opacity)
   );
 }
+// variable de gradient
 @mixin box-shadow {
   box-shadow: 2px 1px 8px -3px colors.$lightgrey;
 }
+// variable box-shadow
 @mixin transform-zoom($zoom-level: 1.02, $transformation: null) {
   transform: $transformation scale($zoom-level);
 }
-
+// variable zoom
 @mixin font-awesome($font-weight: 400) {
   display: inline-block;
   position: absolute;
@@ -24,7 +26,7 @@
   font-family: "Font Awesome 5 Free";
   font-weight: $font-weight;
 }
-
+// régale fontawesome
 @mixin heart($opacity: 1, $font-weight: 400, $color: inherit) {
   @include font-awesome($font-weight);
   content: "\f004";
@@ -38,7 +40,7 @@
   opacity: $opacity;
   transition: all 200ms ease-in-out;
 }
-
+// réglage coeur + hover
 @mixin heart-animated {
   position: relative;
   background-color: white;
@@ -55,7 +57,7 @@
     transform: translateY(-50%) scale(1.1);
   }
 }
-
+// réglage de boutton de base
 @mixin base-button {
   color: white;
   font-weight: 300;
