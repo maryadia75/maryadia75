@@ -49,11 +49,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   background-color: #f3f3f3;
   text-align: center;
   padding: 0.5rem;
-  font-size: 1.5rem;
 }
 .city i {
   font-size: 1.5rem;
@@ -61,19 +60,15 @@ header {
 .city h2 {
   font-size: 1rem;
 }
+
 .city input {
   overflow: auto;
-  border: none;
-  
 }
-.city input::placeholder { 
-  font-weight:bold; 
-  color: black; 
-  border: none;  
-}
-input[type="text"] {
+
+.city input::placeholder {
+  font-weight: bold;
+  color: black;
   background-color: inherit;
-  font-size: 1.2rem;
 }
 
 .explorer {
@@ -199,11 +194,6 @@ input[type="text"] {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  
-}
-.menus__cards {
-  margin-top: 2rem;
-  
 }
 @media (max-width: 1000px) {
   #homepage .menus .menus__cards {
@@ -232,16 +222,16 @@ input[type="text"] {
   background-position: center;
 }
 #homepage .menus .card__image-1 {
-  background-image: url("./assets/menu-1.jpg");
+  background-image: url("../assets/menu-1.jpg");
 }
 #homepage .menus .card__image-2 {
-  background-image: url("./assets/menu-2.jpg");
+  background-image: url("../assets/menu-2.jpg");
 }
 #homepage .menus .card__image-3 {
-  background-image: url("./assets/menu-3.jpg");
+  background-image: url("../assets/menu-3.jpg");
 }
 #homepage .menus .card__image-4 {
-  background-image: url("./assets/menu-4.jpg");
+  background-image: url("../assets/menu-4.jpg");
 }
 #homepage .menus .card__description {
   position: relative;
@@ -311,7 +301,7 @@ footer h2 {
 footer p {
   padding: 0.2rem;
 }
-footer i.fas.fa-utensils {
+footer i {
   padding-right: 0.5rem;
 }
 
@@ -450,17 +440,17 @@ body {
   overflow: hidden;
   margin: 0.5rem;
   box-shadow: 2px 1px 8px -3px #7e7e7e;
-  animation: appear 1s;
+  animation: appear 2s;
   animation-fill-mode: both;
 }
 #page-resto .menus .menus__category .menu-item:nth-child(1) {
-  animation-delay: 100ms;
+  animation-delay: 1s;
 }
 #page-resto .menus .menus__category .menu-item:nth-child(2) {
-  animation-delay: 200ms;
+  animation-delay: 2s;
 }
 #page-resto .menus .menus__category .menu-item:nth-child(3) {
-  animation-delay: 300ms;
+  animation-delay: 3s;
 }
 #page-resto .menus .menus__category .menu-item .menu-item__price {
   margin-left: auto;
@@ -515,12 +505,12 @@ body {
     transform: rotate(0);
   }
 }
-#page-resto section.order {
+#page-resto div.order {
   height: 30vh;
   display: grid;
   place-items: center;
 }
-#page-resto section.order button {
+#page-resto div.order button {
   color: white;
   font-weight: 300;
   font-size: 1.5rem;
@@ -533,7 +523,7 @@ body {
   box-shadow: 2px 1px 8px -3px #7e7e7e;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
 }
-#page-resto section.order button:hover {
+#page-resto div.order button:hover {
   transform: scale(1.02);
   opacity: 0.9;
 }
