@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maryadia75/ohmyfood.git"
+    "url": "git+https://github.com/maryadia75/maryadia75.git"
   },
   "author": "dm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maryadia75/ohmyfood/issues"
+    "url": "https://github.com/maryadia75/maryadia75/issues"
   },
-  "homepage": "https://github.com/maryadia75/ohmyfood#readme",
+  "homepage": "https://github.com/maryadia75/maryadia75#readme",
   "devDependencies": {
     "sass": "^1.49.9"
   },
