@@ -6,6 +6,9 @@
   .menus {
     background-color: #f6f6f6;
     margin-bottom: 2rem;
+    h2 {
+      padding-bottom: 1rem;
+    }
 // réglage disposition des cartes en mode  tablette et ordinateur
     .menus__cards {
       display: grid;

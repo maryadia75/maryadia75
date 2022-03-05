@@ -7,12 +7,13 @@ footer {
   h2 {
     font-family: "Shrikhand", "sans-serif";
     font-weight: 500;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
   p {
     padding: 0.2rem;
   }
-  i {
-    padding-right: 0.5rem;
-  }
+  i.fas.fa-utensils {
+      padding-right: 0.5rem;
+    }
+  
 }

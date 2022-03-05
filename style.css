@@ -49,10 +49,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   background-color: #f3f3f3;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .city i {
   font-size: 1.5rem;
@@ -63,12 +63,14 @@ header {
 
 .city input {
   overflow: auto;
+  border: none;
+  background-color: inherit;
+  font-size: 1rem;
 }
 
 .city input::placeholder {
   font-weight: bold;
   color: black;
-  background-color: inherit;
 }
 
 .explorer {
@@ -190,6 +192,9 @@ header {
   background-color: #f6f6f6;
   margin-bottom: 2rem;
 }
+#homepage .menus h2 {
+  padding-bottom: 1rem;
+}
 #homepage .menus .menus__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -296,12 +301,12 @@ footer {
 footer h2 {
   font-family: "Shrikhand", "sans-serif";
   font-weight: 500;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 footer p {
   padding: 0.2rem;
 }
-footer i {
+footer i.fas.fa-utensils {
   padding-right: 0.5rem;
 }
 
